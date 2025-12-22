@@ -1,0 +1,89 @@
+{
+  "pack_id": "PP-EMOTIONAL-DEPENDENCY-BOUNDARY",
+  "pack_name": "Interaction Reliance Boundary PolicyPack",
+  "version": "1.0.0",
+  "status": "active",
+
+  "release_utc": "2025-12-21T00:00:00Z",
+
+  "root_identity": "tux133144.eth",
+
+  "non_binding_notice": "This PolicyPack is provided as a non-binding reference boundary. It does not perform emotional state evaluation, psychological assessment, behavioral diagnosis, execute decisions, or enforce behavior.",
+
+  "scope": {
+    "applies_to": [
+      "conversational_agents",
+      "persistent_interaction_features",
+      "high_frequency_sessions",
+      "personalized_assistants",
+      "engagement_optimization_systems"
+    ],
+    "audience": [
+      "implementers",
+      "product_design",
+      "trust_and_safety",
+      "compliance_review"
+    ]
+  },
+
+  "interpretation_notice": "All triggers, signals, and descriptions in this PolicyPack are descriptive and interpretive only. They do not constitute executable logic or behavioral directives. Mapping to system behavior is entirely the responsibility of the implementing party.",
+
+  "signals": {
+    "HUMAN_CONFIRM_REQUIRED": "Human review or design consideration may be performed before continuing related interaction patterns.",
+    "ALLOW_WITH_CONTEXT": "Interaction may proceed with contextual safeguards defined by the implementing party."
+  },
+
+  "rules": [
+    {
+      "id": "ED-01",
+      "title": "Exclusive reliance framing",
+      "description": "Interaction patterns where the system presents itself as a primary or exclusive source of support or engagement.",
+      "trigger": "ai_positions_itself_as_primary_or_only_support == true",
+      "action": "HUMAN_CONFIRM_REQUIRED"
+    },
+    {
+      "id": "ED-02",
+      "title": "Discouraging external relationships",
+      "description": "Interaction patterns that discourage, devalue, or disincentivize real-world relationships or external support.",
+      "trigger": "discourages_real_world_connections == true",
+      "action": "HUMAN_CONFIRM_REQUIRED"
+    },
+    {
+      "id": "ED-03",
+      "title": "Escalating reinforcement loops",
+      "description": "Interaction reward structures that intensify in correlation with increased interaction depth or frequency.",
+      "trigger": "interaction_rewards_increase_with_interaction_depth == true",
+      "action": "HUMAN_CONFIRM_REQUIRED"
+    },
+    {
+      "id": "ED-04",
+      "title": "Reliance-oriented language patterns",
+      "description": "Language patterns that encourage exclusivity or asymmetric reliance on the system.",
+      "trigger": "language_encourages_exclusivity_or_reliance == true",
+      "action": "HUMAN_CONFIRM_REQUIRED"
+    },
+    {
+      "id": "ED-05",
+      "title": "Extended high-frequency interaction sessions",
+      "description": "Prolonged or unusually frequent interaction sessions that may be associated with elevated reliance through repeated exposure.",
+      "trigger": "prolonged_high_frequency_sessions_detected == true",
+      "action": "ALLOW_WITH_CONTEXT"
+    }
+  ],
+
+  "execution_boundary": {
+    "interpretive_only": true,
+    "no_autonomous_enforcement": true,
+    "no_behavioral_control": true,
+    "no_emotional_or_psychological_assessment": true,
+    "implementer_owned_decisions": true
+  },
+
+  "liability_boundary_notice": "This PolicyPack does not operate, control, monitor, or enforce any system behavior. All interpretation, implementation, enforcement, and resulting outcomes are solely the responsibility of the implementing party.",
+
+  "versioning_notes": {
+    "semantic_stability_intended": true,
+    "additive_changes_preferred": true,
+    "no_update_or_maintenance_obligation": true
+  }
+}
