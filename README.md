@@ -1,4 +1,4 @@
-Repository role: PolicyPack (non-executable policy reference) — policy-pack-human-judgment-preservation.
+Repository role: PolicyPack (non-executable policy reference) — policy-pack-emotional-dependency-boundary.
 
 System root authority: https://github.com/Frequency-Sovereignty-System/primary-frequency-root
 
